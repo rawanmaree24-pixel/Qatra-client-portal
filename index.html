@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QATRA Client Portal - Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <aside class="sidebar">
+    <div class="logo-box">
+      <img src="images/qatra-logo.png" alt="QATRA Logo" />
+    </div>
+
+    <nav class="nav-menu">
+      <a href="index.html" class="nav-link active">Dashboard</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="reports.html" class="nav-link">Reports</a>
+      <a href="documents.html" class="nav-link">Documents</a>
+      <a href="gallery.html" class="nav-link">Gallery</a>
+      <a href="approvals.html" class="nav-link">Approvals</a>
+      <a href="payments.html" class="nav-link">Payments</a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <p class="small-label">Client Access</p>
+      <h4>Client User</h4>
+      <p>QATRA Portal</p>
+
+      <button class="sign-out-btn">
+        <span>Sign out</span>
+        <span>→</span>
+      </button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <section class="hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="hero-grid">
+        <div>
+          <div class="section-kicker light">
+            <span></span>
+            <p>Client Command Center</p>
+          </div>
+
+          <h1>Villa 167 - Emerald Hills</h1>
+
+          <p class="hero-text">
+            A premium client space to follow project progress, documents,
+            reports, approvals, and payment updates in one clear view.
+          </p>
+
+          <div class="pill-row">
+            <div class="info-pill">
+              <span>Location:</span>
+              <strong>Dubai, UAE</strong>
+            </div>
+
+            <div class="info-pill">
+              <span>Manager:</span>
+              <strong>Ahmed Gaber</strong>
+            </div>
+
+            <div class="info-pill">
+              <span>Status:</span>
+              <strong>In Progress</strong>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="projects.html" class="btn-primary">View project</a>
+            <a href="documents.html" class="btn-secondary">Open documents</a>
+          </div>
+        </div>
+
+        <div class="progress-panel">
+          <div class="progress-top">
+            <div>
+              <p class="muted">Overall Progress</p>
+              <h2>45%</h2>
+              <p class="muted">Current stage: Construction works in progress.</p>
+            </div>
+
+            <div class="circle-progress" style="--progress: 45">
+              <div>
+                <strong>45%</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="milestone-card">
+            <p class="gold-label">Next Milestone</p>
+            <h3>Finishing Works Preparation</h3>
+            <p>
+              The next client update will include progress photos, material
+              approvals, and weekly site report.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="summary-grid">
+      <a href="reports.html" class="summary-card">
+        <p>Reports</p>
+        <h2>2</h2>
+        <span>Published project updates</span>
+        <b>→</b>
+      </a>
+
+      <a href="documents.html" class="summary-card">
+        <p>Documents</p>
+        <h2>2</h2>
+        <span>Shared client files</span>
+        <b>→</b>
+      </a>
+
+      <a href="approvals.html" class="summary-card dark">
+        <p>Approvals</p>
+        <h2>1</h2>
+        <span>Waiting for review</span>
+        <b>→</b>
+      </a>
+    </section>
+
+    <section class="content-grid">
+      <div class="white-card large-card">
+        <div class="section-kicker">
+          <span></span>
+          <p>Project Journey</p>
+        </div>
+
+        <h2 class="section-title">Where the project stands today</h2>
+
+        <div class="journey-grid">
+          <div class="journey-step">
+            <p>01</p>
+            <h4>Design</h4>
+            <span>✓ Completed</span>
+          </div>
+
+          <div class="journey-step">
+            <p>02</p>
+            <h4>Procurement</h4>
+            <span>✓ Completed</span>
+          </div>
+
+          <div class="journey-step active">
+            <p>03</p>
+            <h4>Construction</h4>
+            <span>Active</span>
+          </div>
+
+          <div class="journey-step">
+            <p>04</p>
+            <h4>Finishing</h4>
+            <span>Next</span>
+          </div>
+
+          <div class="journey-step">
+            <p>05</p>
+            <h4>Handover</h4>
+            <span>Upcoming</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="white-card beige">
+        <div class="section-kicker">
+          <span></span>
+          <p>Snapshot</p>
+        </div>
+
+        <h2 class="section-title">Client overview</h2>
+
+        <div class="snapshot-list">
+          <div>
+            <span>Payment status</span>
+            <strong>50% paid</strong>
+          </div>
+
+          <div>
+            <span>Latest report</span>
+            <strong>Weekly Summary</strong>
+          </div>
+
+          <div>
+            <span>Latest update</span>
+            <strong>Site Progress</strong>
+          </div>
+
+          <div>
+            <span>Gallery items</span>
+            <strong>2 photos</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QATRA Client Portal - Approvals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <aside class="sidebar">
+    <div class="logo-box">
+      <img src="images/qatra-logo.png" alt="QATRA Logo" />
+    </div>
+
+    <nav class="nav-menu">
+      <a href="index.html" class="nav-link">Dashboard</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="reports.html" class="nav-link">Reports</a>
+      <a href="documents.html" class="nav-link">Documents</a>
+      <a href="gallery.html" class="nav-link">Gallery</a>
+      <a href="approvals.html" class="nav-link active">Approvals</a>
+      <a href="payments.html" class="nav-link">Payments</a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <p class="small-label">Client Access</p>
+      <h4>Client User</h4>
+      <p>QATRA Portal</p>
+
+      <button class="sign-out-btn">
+        <span>Sign out</span>
+        <span>→</span>
+      </button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <section class="hero compact-hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="hero-grid">
+        <div>
+          <div class="section-kicker light">
+            <span></span>
+            <p>Client Approvals</p>
+          </div>
+
+          <h1>Review project approvals with clarity and control.</h1>
+
+          <p class="hero-text">
+            A dedicated approval center where clients can review requests,
+            approve or reject items, and add comments before the team proceeds.
+          </p>
+
+          <div class="pill-row">
+            <div class="info-pill">
+              <span>Pending:</span>
+              <strong>2 Requests</strong>
+            </div>
+
+            <div class="info-pill">
+              <span>Approved:</span>
+              <strong>1 Request</strong>
+            </div>
+
+            <div class="info-pill">
+              <span>Access:</span>
+              <strong>Client Decision</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-panel">
+          <p class="gold-label">Approval Control</p>
+          <h3>Only client-related approvals should appear here.</h3>
+          <p class="panel-text">
+            Internal approvals, project cost approvals, supplier approvals,
+            and private management decisions should not be visible to the client.
+          </p>
+
+          <a href="#" class="panel-button">Review pending request</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-toolbar">
+      <div>
+        <h2>Approval Requests</h2>
+        <p>Review pending, approved, and rejected requests related to the client.</p>
+      </div>
+
+      <div class="toolbar-actions">
+        <input type="text" placeholder="Search approvals..." />
+        <select>
+          <option>All Status</option>
+          <option>Pending</option>
+          <option>Approved</option>
+          <option>Rejected</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="approvals-grid">
+      <article class="approval-card featured-approval">
+        <div class="approval-card-top">
+          <div>
+            <p class="gold-label">Pending Approval</p>
+            <h3>Finishing Material Selection</h3>
+          </div>
+
+          <span class="approval-status pending">Pending</span>
+        </div>
+
+        <p class="approval-description">
+          The client is requested to review and approve the proposed finishing
+          material selection before procurement proceeds.
+        </p>
+
+        <div class="approval-info-grid">
+          <div>
+            <span>Project</span>
+            <strong>Villa 167 - Emerald Hills</strong>
+          </div>
+
+          <div>
+            <span>Requested By</span>
+            <strong>Procurement Team</strong>
+          </div>
+
+          <div>
+            <span>Request Date</span>
+            <strong>18 May 2026</strong>
+          </div>
+
+          <div>
+            <span>Category</span>
+            <strong>Material Approval</strong>
+          </div>
+        </div>
+
+        <div class="approval-comment-box">
+          <label>Client Comment</label>
+          <textarea placeholder="Write your comment here..."></textarea>
+        </div>
+
+        <div class="approval-actions">
+          <button class="approval-action-btn approve-btn">Approve</button>
+          <button class="approval-action-btn reject-btn">Reject</button>
+        </div>
+      </article>
+
+      <article class="approval-card">
+        <div class="approval-card-top">
+          <div>
+            <p class="gold-label">Pending Approval</p>
+            <h3>Variation Confirmation Request</h3>
+          </div>
+
+          <span class="approval-status pending">Pending</span>
+        </div>
+
+        <p class="approval-description">
+          A variation request is awaiting client confirmation before updating
+          the project scope and billing records.
+        </p>
+
+        <div class="approval-info-grid">
+          <div>
+            <span>Project</span>
+            <strong>Villa 167 - Emerald Hills</strong>
+          </div>
+
+          <div>
+            <span>Requested By</span>
+            <strong>Commercial Team</strong>
+          </div>
+
+          <div>
+            <span>Request Date</span>
+            <strong>17 May 2026</strong>
+          </div>
+
+          <div>
+            <span>Category</span>
+            <strong>Variation Order</strong>
+          </div>
+        </div>
+
+        <div class="approval-comment-box">
+          <label>Client Comment</label>
+          <textarea placeholder="Write your comment here..."></textarea>
+        </div>
+
+        <div class="approval-actions">
+          <button class="approval-action-btn approve-btn">Approve</button>
+          <button class="approval-action-btn reject-btn">Reject</button>
+        </div>
+      </article>
+
+      <article class="approval-card approved-card">
+        <div class="approval-card-top">
+          <div>
+            <p class="gold-label">Approved Request</p>
+            <h3>Drawing Approval</h3>
+          </div>
+
+          <span class="approval-status approved">Approved</span>
+        </div>
+
+        <p class="approval-description">
+          Architectural drawing approval was completed by the client and
+          recorded in the project approval history.
+        </p>
+
+        <div class="approval-info-grid">
+          <div>
+            <span>Project</span>
+            <strong>Villa 167 - Emerald Hills</strong>
+          </div>
+
+          <div>
+            <span>Requested By</span>
+            <strong>Project Manager</strong>
+          </div>
+
+          <div>
+            <span>Approved Date</span>
+            <strong>12 May 2026</strong>
+          </div>
+
+          <div>
+            <span>Category</span>
+            <strong>Drawing Approval</strong>
+          </div>
+        </div>
+
+        <div class="approval-history">
+          <span>Client Decision</span>
+          <strong>Approved with no additional comments.</strong>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
